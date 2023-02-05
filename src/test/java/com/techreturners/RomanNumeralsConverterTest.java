@@ -15,4 +15,19 @@ public class RomanNumeralsConverterTest {
         RomanNumeralsConverter romanNumeralsConverter=new RomanNumeralsConverter();
         assertEquals("II",romanNumeralsConverter.convert(2));
     }
+    @Test
+    public void convertThreeToNumerals(){
+        RomanNumeralsConverter romanNumeralsConverter=new RomanNumeralsConverter();
+        assertEquals("III",romanNumeralsConverter.convert(3));
+    }
+    @Test
+    public void convertfourToNumerals(){
+        RomanNumeralsConverter romanNumeralsConverter=new RomanNumeralsConverter();
+        assertEquals("IV",romanNumeralsConverter.convert(4));
+    }
+    @Test
+    public void convertTenToNumerals(){
+        RomanNumeralsConverter romanNumeralsConverter=new RomanNumeralsConverter();
+        assertEquals("X",romanNumeralsConverter.convert(10));
+    }
 }
