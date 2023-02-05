@@ -10,4 +10,9 @@ public class RomanNumeralsConverterTest {
         RomanNumeralsConverter romanNumeralsConverter=new RomanNumeralsConverter();
         assertEquals("I",romanNumeralsConverter.convert(1));
     }
+    @Test
+    public void convertTwoToNumerals(){
+        RomanNumeralsConverter romanNumeralsConverter=new RomanNumeralsConverter();
+        assertEquals("II",romanNumeralsConverter.convert(2));
+    }
 }
